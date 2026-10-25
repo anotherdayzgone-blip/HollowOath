@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HollowOath | Handmade Spiritual Goods</title>
+<meta name="description" content="Explore handmade spell jars, crystals, herbs, and spiritual goods from HollowOath.">
+<style>
+:root {
+  --bg: #10110f;
+  --panel: #1b1c18;
+  --gold: #c4a46a;
+  --text: #eee9df;
+  --muted: #b1ad9f;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, serif;
+  line-height: 1.6;
+}
+header {
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-bottom: 1px solid #39372e;
+}
+.logo {
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: var(--gold);
+}
+nav { display: flex; gap: 18px; flex-wrap: wrap; }
+nav a { color: var(--text); text-decoration: none; font-size: 14px; }
+nav a:hover { color: var(--gold); }
+.hero {
+  padding: 85px 7%;
+  min-height: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(90deg, #10110f 10%, #10110fd9 65%, #10110f99),
+  url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1500&q=80") center/cover;
+}
+.kicker {
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+h1 {
+  font-size: clamp(40px, 8vw, 68px);
+  line-height: 1.08;
+  margin: 16px 0;
+}
+.hero p { max-width: 510px; color: #d1cdc3; font-size: 17px; }
+.btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 11px 20px;
+  background: var(--gold);
+  color: #14140f;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid var(--gold);
+}
+.btn:hover { background: transparent; color: var(--gold); }
+section { padding: 58px 6%; }
+.heading { text-align: center; margin-bottom: 32px; }
+.heading h2 { font-size: 34px; margin: 6px 0; }
+.heading p, .muted { color: var(--muted); }
+.products {
+  max-width: 1150px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+.product {
+  background: var(--panel);
+  border: 1px solid #35342c;
+  padding-bottom: 20px;
+}
+.product img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  background: #25251f;
+}
+.details { padding: 14px 17px 0; }
+.details h3 { margin: 0 0 7px; font-size: 21px; }
+.details p { min-height: 48px; font-size: 14px; color: var(--muted); }
+.price { color: var(--gold); font-size: 20px; }
+.details .btn { padding: 9px 13px; font-size: 13px; }
+.about {
+  text-align: center;
+  background: #191a16;
+  border-block: 1px solid #35342c;
+}
+.about p { max-width: 680px; margin: 15px auto; color: #c7c2b7; }
+.contact { text-align: center; }
+footer {
+  text-align: center;
+  border-top: 1px solid #35342c;
+  padding: 25px 6%;
+  color: var(--muted);
+  font-size: 13px;
+}
+@media(max-width: 480px) {
+  header { justify-content: center; }
+  nav { justify-content: center; }
+  .hero { padding: 60px 7%; }
+  section { padding: 45px 5%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">HOLLOWOATH</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="kicker">Handmade • Nature • Intention</div>
+  <h1>Crafted with purpose.<br>Rooted in shadow.</h1>
+  <p>
+    Handmade spell jars, crystals, herbs, and spiritual goods.
+    Discover something meaningful for your own personal practice.
+  </p>
+  <a class="btn" href="#shop">EXPLORE THE COLLECTION</a>
+</section>
+
+<section id="shop">
+  <div class="heading">
+    <div class="kicker">The Collection</div>
+    <h2>Shop HollowOath</h2>
+    <p>Each piece is made with care and intention.</p>
+  </div>
+
+  <div class="products">
+    <article class="product">
+      <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=700&q=80" alt="Crystals and jewelry">
+      <div class="details">
+        <h3>Protection Spell Jar</h3>
+        <p>A handmade jar inspired by protection and grounding.</p>
+        <div class="price">$15.00</div>
+        <a class="btn" href="#contact">ASK ABOUT THIS</a>
+      </div>
+    </article>
+
+    <article class="product">
+      <img src="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=700&q=80" alt="Natural plants and greenery">
+      <div class="details">
+        <h3>Abundance Spell Jar</h3>
+        <p>A nature-inspired creation for abundance and new beginnings.</p>
+        <div class="price">$15.00</div>
+        <a class="btn" href="#contact">ASK ABOUT THIS</a>
+      </div>
+    </article>
+
+    <article class="product">
+      <img src="https://images.unsplash.com/photo-1515942400420-2b98fed1f515?auto=format&fit=crop&w=700&q=80" alt="Decorative stones">
+      <div class="details">
+        <h3>Crystal Collection</h3>
+        <p>Natural stones for your altar, collection, or spiritual practice.</p>
+        <div class="price">From $8.00</div>
+        <a class="btn" href="#contact">ASK ABOUT THIS</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="kicker">Our Craft</div>
+  <h2>Made by Hand. Made with Purpose.</h2>
+  <p>
+    HollowOath brings together natural materials and thoughtful
+    craftsmanship to create unique spiritual goods. Every piece has
+    its own character, made to be personal and meaningful.
+  </p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="kicker">Get in Touch</div>
+  <h2>Looking for Something Specific?</h2>
+  <p class="muted">Ask about products, availability, or custom orders.</p>
+
+  <!-- Replace YOUR-EMAIL@example.com with your real email address. -->
+  <a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=HollowOath%20Order%20Inquiry">
+    CONTACT HOLLOWOATH
+  </a>
+  <p class="muted">We look forward to hearing from you.</p>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> HollowOath</p>
+  <p>Handmade with intention.</p>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
